@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: n8n-service
+  namespace: n8n-temp
+spec:
+  type: NodePort
+  selector:
+    app: n8n
+  ports:
+    - port: 80
+      targetPort: 5678
+      nodePort: 30080
