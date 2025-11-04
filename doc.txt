@@ -1,0 +1,4 @@
+https://medium.com/@nambastha07/deployed-n8n-on-my-k8s-cluster-no-port-forwarding-no-https-yet-e07873dea3ec
+
+https://docs.n8n.io/hosting/configuration/environment-variables/database/
+
